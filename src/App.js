@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import "../node_modules/antd/dist/antd.css";
+import "antd/dist/antd.css";
 import React, { useState } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
