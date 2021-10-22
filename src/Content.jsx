@@ -158,7 +158,7 @@ export default function Content({ islogin, setUser, user }) {
       </div>
       <div
         className="d-block m-4"
-        style={{ textAlign: "end", paddingRight: "30px" }}
+        style={{ textAlign: "end", paddingRight: "7px" }}
       >
         <Button
           size="large"
