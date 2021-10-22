@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import logo_small from "./images/paktolus_logo.jpeg";
+import logo_small from "./images/paktolus_logo.jpg";
 import { Space, Image } from "antd";
 import { LoginOutlined, PlusCircleOutlined } from "@ant-design/icons";
 import avatar from "./images/avatar.png";
