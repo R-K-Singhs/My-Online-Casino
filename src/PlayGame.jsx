@@ -107,12 +107,8 @@ export default function PlayGame({ setPlay, islogin, user, setUser }) {
         backgroundColor: "blue",
       }}
       closable={false}
-      style={{
-        padding: "0px",
-        width: "700px",
-      }}
       maskClosable={false}
-      width="700px"
+      width={"400px"}
     >
       <Card
         style={{
@@ -124,9 +120,9 @@ export default function PlayGame({ setPlay, islogin, user, setUser }) {
         headStyle={{ border: "none" }}
         title={
           <div className="d-block">
-            <h2 className="">
+            <h5 className="text-center">
               <span
-                className=" p-1 px-4 ant-card-hoverable  rounded border  rounded-pill  text-white"
+                className=" p-1 px-4 ant-card-hoverable  rounded border  rounded-pill  text-white d-flex flex-wrap justify-content-center "
                 style={{
                   backgroundImage: "linear-gradient(to right,blue, #391085)",
                   textShadow: "2px 2px 2px red",
@@ -134,23 +130,11 @@ export default function PlayGame({ setPlay, islogin, user, setUser }) {
               >
                 {isloading ? "Please wait..." : message}
               </span>
-            </h2>
+            </h5>
             <span style={{ fontSize: "40px", color: "white" }}>
               ${user.price || "00.00"}
             </span>
           </div>
-          // <div >
-          //   <Alert
-          //     message={isloading ? "Please wait..." : message}
-          //     type="success"
-          //     size="large"
-          //     showIcon
-          //     closable
-          //   />
-          //   <span style={{ fontSize: "40px", color: "white" }}>
-          //     ${user.price || "00.00"}
-          //   </span>
-          // </div>
         }
       >
         <div>

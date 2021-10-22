@@ -7,12 +7,17 @@ import image4 from "./images/spades.jpg";
 
 export default function PlayingCard({
   option = "0",
-  width = "150px",
-  height = "150px",
+  width = "80px",
+  height = "80px",
 }) {
   return (
     <Card
-      style={{ width: width, height: height }}
+      style={{
+        width: width,
+        minWidth: "70px",
+        minHeight: "70px",
+        height: height,
+      }}
       className="m-1 p-0"
       bodyStyle={{ padding: "0px" }}
     >

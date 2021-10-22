@@ -41,7 +41,7 @@ export default function Navbar({ islogin, setLogin, price, setUser, user }) {
               className="d-inline-block align-text-center rounded rounded-2 ant-card-hoverable"
             />
             <h4 className="p-0 m-0 text-white">
-              {user.name ? user.name : "Casino"}
+              {user.name ? user.name : "Online-Casino"}
             </h4>
           </Space>
 
